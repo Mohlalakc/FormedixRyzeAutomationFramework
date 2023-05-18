@@ -1,6 +1,6 @@
 Feature: Update Medical History
 
-  @test1
+  @Test1
   Scenario Outline: As a user I want to login to Ryze application and update the medical history description
     Given Ryze website is open and I am on a login page open on "<Browser>" "<Environment>"
     When I login with "<Username>" and "<Password>" credentials

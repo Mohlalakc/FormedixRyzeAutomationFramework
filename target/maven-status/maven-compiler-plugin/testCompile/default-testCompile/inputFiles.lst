@@ -1,11 +1,11 @@
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\pageObject\TechStudyPage.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\pageObject\LoginPage.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\Browser\InitialiseBrowser.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\pageObject\LogoutPage.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\StepDefinitions\UpdateMedicalHistoryDescriptionStepDef.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\Browser\TestingWebsiteLaunch.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\Utilities\Config.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\pageObject\RyzeLandingPage.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\pageObject\FormsPage.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\runner\TestRunner.java
-C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala\src\test\java\Utilities\ScreenShots.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\Browser\TestingWebsiteLaunch.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\pageObject\FormsPage.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\runner\TestRunner.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\pageObject\TechStudyPage.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\StepDefinitions\UpdateMedicalHistoryDescriptionStepDef.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\Browser\InitialiseBrowser.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\pageObject\LogoutPage.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\Utilities\ScreenShots.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\pageObject\LoginPage.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\pageObject\RyzeLandingPage.java
+C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework\src\test\java\Utilities\Config.java

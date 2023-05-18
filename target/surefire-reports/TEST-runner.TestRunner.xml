@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="runner.TestRunner" time="62.891" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="runner.TestRunner" time="57.716" errors="1" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="20+36-2344"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Mohla\IdeaProjects\FormedixAutomationFramework - Kgothatso Collen Mohlala"/>
+    <property name="user.dir" value="C:\Users\Mohla\IdeaProjects\FormedixRyzeAutomationFramework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="20+36-2344"/>
     <property name="os.arch" value="amd64"/>
@@ -65,24 +65,24 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Update Medical History" name="As a user I want to login to Ryze application and update the medical history description" time="62.891">
+  <testcase classname="Update Medical History" name="As a user I want to login to Ryze application and update the medical history description" time="57.716">
     <error message="element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=113.0.5672.93)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [48fa7494e565a2f48ecff9b538d458cd, clickElement {id=5B0A2AD0239E39501887322932E5401F_element_200}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53134/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (48fa7494e565a2f48ecff9b538d458cd)] -&gt; id: saveAsset]
-Session ID: 48fa7494e565a2f48ecff9b538d458cd" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
+Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
+Session ID: 262e26a68216f193908e6831bec83deb" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=113.0.5672.93)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [48fa7494e565a2f48ecff9b538d458cd, clickElement {id=5B0A2AD0239E39501887322932E5401F_element_200}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53134/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (48fa7494e565a2f48ecff9b538d458cd)] -&gt; id: saveAsset]
-Session ID: 48fa7494e565a2f48ecff9b538d458cd
+Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
+Session ID: 262e26a68216f193908e6831bec83deb
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -97,7 +97,7 @@ Session ID: 48fa7494e565a2f48ecff9b538d458cd
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at pageObject.FormsPage.clickMedicalHistoryUpdateBtn(FormsPage.java:26)
 	at StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnTheUpdateButton(UpdateMedicalHistoryDescriptionStepDef.java:138)
-	at ✽.I click on the Update button(file:///C:/Users/Mohla/IdeaProjects/FormedixAutomationFramework%20-%20Kgothatso%20Collen%20Mohlala/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature:19)
+	at ✽.I click on the Update button(file:///C:/Users/Mohla/IdeaProjects/FormedixRyzeAutomationFramework/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature:19)
 </error>
     <system-out>
 @test1
@@ -122,10 +122,10 @@ Scenario Outline: As a user I want to login to Ryze application and update the m
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [48fa7494e565a2f48ecff9b538d458cd, clickElement {id=5B0A2AD0239E39501887322932E5401F_element_200}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53134/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (48fa7494e565a2f48ecff9b538d458cd)] -&gt; id: saveAsset]
-Session ID: 48fa7494e565a2f48ecff9b538d458cd
+Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
+Session ID: 262e26a68216f193908e6831bec83deb
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -140,17 +140,17 @@ Session ID: 48fa7494e565a2f48ecff9b538d458cd
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at pageObject.FormsPage.clickMedicalHistoryUpdateBtn(FormsPage.java:26)
 	at StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnTheUpdateButton(UpdateMedicalHistoryDescriptionStepDef.java:138)
-	at ✽.I click on the Update button(file:///C:/Users/Mohla/IdeaProjects/FormedixAutomationFramework%20-%20Kgothatso%20Collen%20Mohlala/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature:19)
+	at ✽.I click on the Update button(file:///C:/Users/Mohla/IdeaProjects/FormedixRyzeAutomationFramework/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature:19)
 &amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI verify that the textbox is updated successfully &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;This description was updated by Kgothatso Collen Mohlala&quot;&amp;#27;[0m &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iVerifyThatTheTextboxIsUpdatedSuccessfully(java.lang.String)&amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on the profile&amp;#27;[0m                                                                                       &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnTheProfile()&amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on Logout option&amp;#27;[0m                                                                                     &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnLogoutOption()&amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI verify that the Ryze Logo is displayed&amp;#27;[0m                                                                     &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iVerifyThatTheRyzeLogoIsDisplayed()&amp;#27;[0m
 
-    Embedding As a user I want to login to Ryze application and update the medical history description [image/png 160461 bytes]
+    Embedding As a user I want to login to Ryze application and update the medical history description [image/png 160686 bytes]
 
 </system-out>
-    <system-err>Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 10040
+    <system-err>Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 43783
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
