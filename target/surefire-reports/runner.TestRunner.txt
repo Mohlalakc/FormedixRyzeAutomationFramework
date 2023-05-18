@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 59.586 sec <<< FAILURE!
-As a user I want to login to Ryze application and update the medical history description(Update Medical History)  Time elapsed: 57.716 sec  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button ng-show="$ctrl.mode === 'edit' &amp;&amp; !$ctrl.loadDetailedPanel" ng-disabled="!$ctrl.hasChanges" class="btn btn-default btn-compact btn-primary" id="saveAsset" ng-click="$ctrl.save()" style="" disabled="disabled">...</button> is not clickable at point (1244, 532). Other element would receive the click: <div class="mdb-edit-content-properties-buttons" ng-if="$ctrl.activeTab === 'properties'">...</div>
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 59.435 sec <<< FAILURE!
+As a user I want to login to Ryze application and update the medical history description(Update Medical History)  Time elapsed: 57.482 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button ng-show="$ctrl.mode === 'edit' &amp;&amp; !$ctrl.loadDetailedPanel" ng-disabled="!$ctrl.hasChanges" class="btn btn-default btn-compact btn-primary" id="saveAsset" ng-click="$ctrl.save()" style="" disabled="disabled">...</button> is not clickable at point (1244, 532). Other element would receive the click: <div class="mdb-edit-content-properties-buttons" ng-if="$ctrl.activeTab === 'properties'" style="">...</div>
   (Session info: chrome=113.0.5672.93)
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -> id: saveAsset]
-Session ID: 262e26a68216f193908e6831bec83deb
+Command: [fbfc549d76bd59cbec744d03e997f209, clickElement {id=228149AFB753E51EA116724DAEE99901_element_200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbfc549d76bd59cbec744d03e997f209)] -> id: saveAsset]
+Session ID: fbfc549d76bd59cbec744d03e997f209
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="runner.TestRunner" time="57.716" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="runner.TestRunner" time="57.482" errors="1" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,24 +65,24 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Update Medical History" name="As a user I want to login to Ryze application and update the medical history description" time="57.716">
-    <error message="element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
+  <testcase classname="Update Medical History" name="As a user I want to login to Ryze application and update the medical history description" time="57.482">
+    <error message="element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=113.0.5672.93)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
-Session ID: 262e26a68216f193908e6831bec83deb" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
+Command: [fbfc549d76bd59cbec744d03e997f209, clickElement {id=228149AFB753E51EA116724DAEE99901_element_200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbfc549d76bd59cbec744d03e997f209)] -&gt; id: saveAsset]
+Session ID: fbfc549d76bd59cbec744d03e997f209" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=113.0.5672.93)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
-Session ID: 262e26a68216f193908e6831bec83deb
+Command: [fbfc549d76bd59cbec744d03e997f209, clickElement {id=228149AFB753E51EA116724DAEE99901_element_200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbfc549d76bd59cbec744d03e997f209)] -&gt; id: saveAsset]
+Session ID: fbfc549d76bd59cbec744d03e997f209
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -117,15 +117,15 @@ Scenario Outline: As a user I want to login to Ryze application and update the m
   &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI clear the Description text box&amp;#27;[0m                                                                             &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClearTheDescriptionTextBox()&amp;#27;[0m
   &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI capture the Description &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;This description was updated by Kgothatso Collen Mohlala&quot;&amp;#27;[0m                         &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iCaptureTheDescription(java.lang.String)&amp;#27;[0m
   &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI click on the Update button&amp;#27;[0m                                                                                 &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnTheUpdateButton()&amp;#27;[0m
-      &amp;#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot;&gt;...&lt;/div&gt;
+      &amp;#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button ng-show=&quot;$ctrl.mode === &apos;edit&apos; &amp;amp;&amp;amp; !$ctrl.loadDetailedPanel&quot; ng-disabled=&quot;!$ctrl.hasChanges&quot; class=&quot;btn btn-default btn-compact btn-primary&quot; id=&quot;saveAsset&quot; ng-click=&quot;$ctrl.save()&quot; style=&quot;&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (1244, 532). Other element would receive the click: &lt;div class=&quot;mdb-edit-content-properties-buttons&quot; ng-if=&quot;$ctrl.activeTab === &apos;properties&apos;&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=113.0.5672.93)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262e26a68216f193908e6831bec83deb, clickElement {id=B5502810603FDBC72E0172CE96A92496_element_208}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56632/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (262e26a68216f193908e6831bec83deb)] -&gt; id: saveAsset]
-Session ID: 262e26a68216f193908e6831bec83deb
+Command: [fbfc549d76bd59cbec744d03e997f209, clickElement {id=228149AFB753E51EA116724DAEE99901_element_200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Mohla\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbfc549d76bd59cbec744d03e997f209)] -&gt; id: saveAsset]
+Session ID: fbfc549d76bd59cbec744d03e997f209
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -147,10 +147,10 @@ Session ID: 262e26a68216f193908e6831bec83deb
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on Logout option&amp;#27;[0m                                                                                     &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iClickOnLogoutOption()&amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI verify that the Ryze Logo is displayed&amp;#27;[0m                                                                     &amp;#27;[90m# StepDefinitions.UpdateMedicalHistoryDescriptionStepDef.iVerifyThatTheRyzeLogoIsDisplayed()&amp;#27;[0m
 
-    Embedding As a user I want to login to Ryze application and update the medical history description [image/png 160686 bytes]
+    Embedding As a user I want to login to Ryze application and update the medical history description [image/png 160461 bytes]
 
 </system-out>
-    <system-err>Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 43783
+    <system-err>Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 47780
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.

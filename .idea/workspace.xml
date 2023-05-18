@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707e3458-26e1-4f49-9251-a2dbfacc37f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ ExecutionReport/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ ExecutionReport/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/featureFiles/UpdateMedicalHistoryDescription.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/DataAcquisition.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/DataAcquisition.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/LandingPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/LandingPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/Login.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/MedicalHistory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/MedicalHistory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/MedicalHistoryDescription.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/MedicalHistoryDescription.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/RepositoryOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/RepositoryOptions.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/TechStudyMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/TechStudyMenu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/TechStudyScreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/Login/TechStudyScreen.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/FormedixAutomationFramework-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FormedixAutomationFramework-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/LandingPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/LandingPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/Login.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/Login.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/MedicalHistory.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/MedicalHistory.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/RepositoryOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/RepositoryOptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/TechStudyMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/TechStudyMenu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/TechStudyScreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/Login/TechStudyScreen.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +29,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -65,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Mohla/IdeaProjects/FormedixRyzeAutomationFramework",
+    "last_opened_file_path": "C:/Users/Mohla/IdeaProjects/FormedixAutomationFramework -Kgothatso Collen Mohlala",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
