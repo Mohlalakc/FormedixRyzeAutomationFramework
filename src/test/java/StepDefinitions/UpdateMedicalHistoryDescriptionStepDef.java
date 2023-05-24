@@ -79,14 +79,10 @@ public void ryze_website_is_open_and_i_am_on_a_login_page_open_on(String browser
 
     @And("I verify the Tech Study options {string} {string} {string} {string}")
     public void iVerifyTheTechStudyOptions(String View, String Edit, String RemoveThisStudy, String TransitionThisStudy) {
-        String ViewOption = driver.findElement(By.xpath("//*[@id=\"fdxMdbContainerListItem0View\"]")).getText();
-        String EditOption = driver.findElement(By.xpath("//*[@id=\"fdxMdbContainerListItem0Edit\"]")).getText();
-        String RemoveThisStudyOption = driver.findElement(By.xpath("//*[@id=\"fdxMdbContainerListItem0Delete\"]")).getText();
-        String TransitionThisStudyOption = driver.findElement(By.xpath("//*[@id=\"fdxMdbContainerListItem0Transition\"]")).getText();
-        Assert.assertEquals(View, ViewOption);
-        Assert.assertEquals(Edit, EditOption);
-        Assert.assertEquals(RemoveThisStudy,RemoveThisStudyOption);
-        Assert.assertEquals(TransitionThisStudy, TransitionThisStudyOption);
+        Assert.assertEquals(View, formsPage.viewOptionText());
+        Assert.assertEquals(Edit, formsPage.editOptionText());
+        Assert.assertEquals(RemoveThisStudy,formsPage.removeThisStudyOptionText());
+        Assert.assertEquals(TransitionThisStudy, formsPage.transitionThisStudyOptionText());
     }
 
     @And("I click on the View button")
@@ -140,7 +136,7 @@ public void ryze_website_is_open_and_i_am_on_a_login_page_open_on(String browser
 
     @And("I verify that the textbox is updated successfully {string}")
     public void iVerifyThatTheTextboxIsUpdatedSuccessfully(String Description){
-
+    Assert.assertEquals(Description, formsPage.UpdatedDescritpion());
     }
 
     @And("I click on the profile")
